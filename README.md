@@ -44,6 +44,7 @@ Global build settings-->preferred standard C++ library-->libstdc++[*]
 ```
 
 服务已经注册到service中，可以使用`service ts3server start`或`/etc/init.d/ts3server`来启动
+
 你也可以使用`service ts3server status`来检查ts3服务端的运行情况
 
 ## Contribution 

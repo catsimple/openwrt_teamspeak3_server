@@ -14,7 +14,7 @@ define Package/$(PKG_NAME)
 	SECTION:=net
 	CATEGORY:=Network
 	SUBMENU:=Instant Messaging
-	TITLE:=Teamspeak3 Server.
+	TITLE:=A Teamspeak3 (VOIP application) Server
 	DEPENDS:=@(i386||x86_64) +libc
 	URL:=https://www.teamspeak.com/
 endef

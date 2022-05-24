@@ -6,7 +6,7 @@ This repository is an unofficial package for run ts3server on openwrt which ba
 
 Due to TeamSpeak official. Up to now, this repository cannot support other architecture.
 
-## Usage
+## Build
 
 将以下代码添加到 `feeds.conf.default` 中
 
@@ -35,6 +35,7 @@ Global build settings-->Compile with full langeuage support[*]
 Global build settings-->preferred standard C++ library-->libstdc++[*]
 ```
 
+## Usage
 运行teamspeak3 server
 
 初次运行，需要在终端中执行以下命令以接受ts3的使用条款
@@ -44,3 +45,6 @@ Global build settings-->preferred standard C++ library-->libstdc++[*]
 
 服务已经注册到service中，可以使用`service ts3server start`或`/etc/init.d/ts3server`来启动
 你也可以使用`service ts3server status`来检查ts3服务端的运行情况
+
+## Contribution 
+https://github.com/senayuki/openwrt_ts3server

@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ts3server
-PKG_VERSION:=3.13.6
+PKG_VERSION:=3.13.7
 PKG_RELEASE:=1
 
 include $(INCLUDE_DIR)/package.mk

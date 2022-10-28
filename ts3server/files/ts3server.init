@@ -1,0 +1,33 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=15
+EXTRA_COMMANDS="status"
+EXTRA_HELP="        status          check ts3server status"
+
+
+boot() {
+	return 0
+	/usr/bin/ts3server/ts3server_startscript.sh start
+}
+
+reload() {
+	/usr/bin/ts3server/ts3server_startscript.sh restart
+	return 0
+}
+
+status(){
+	/usr/bin/ts3server/ts3server_startscript.sh status
+}
+
+restart() {
+	/usr/bin/ts3server/ts3server_startscript.sh restart
+}
+
+start() {
+	/usr/bin/ts3server/ts3server_startscript.sh start
+}
+
+stop() {
+	/usr/bin/ts3server/ts3server_startscript.sh stop
+	return 0
+}
